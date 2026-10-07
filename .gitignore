@@ -1,0 +1,64 @@
+# === Unity: сгенерированные папки (НЕ коммитить) ===
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+GeneratedAssets/
+
+# Asset Store tools
+[Aa]ssets/AssetStoreTools*
+
+# === IDE / редакторы ===
+.idea/
+.vs/
+.vscode/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# === Unity-специфичный мусор ===
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+crashlytics-build.properties
+
+# === Билды и экспорты ===
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+Native/
+
+# === ОС-мусор ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Временные файлы Unity (на всякий случай) ===
+*.tmp
+*.bak
+
+# ВАЖНО: НЕ игнорируем Assets/, ProjectSettings/, Packages/
+# и НИКОГДА не добавляйте *.meta в .gitignore —
+# без .meta файлов Unity потеряет все связи в сценах и префабах!
